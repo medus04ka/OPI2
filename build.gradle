@@ -1,5 +1,27 @@
 plugins {
     id 'java'
+    id 'checkstyle'
+    id 'com.github.spotbugs' version '5.0.14'
+}
+
+checkstyle {
+    toolVersion = '10.3'
+    configFile = rootProject.file("config/checkstyle/google_checks.xml")
+    sourceSets = [sourceSets.main]
+    ignoreFailures = false
+    showViolations = true
+}
+
+spotbugs {
+    toolVersion = '4.7.3'
+    ignoreFailures = false
+    effort = 'max'
+    reportLevel = 'low'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 group = 'org.example'
