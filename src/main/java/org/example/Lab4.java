@@ -21,5 +21,5 @@ public class Lab4 {
   a.x7(c);
   }
 }
-previous : 18
-previous : 24
+previous : 25
+previous : 31
