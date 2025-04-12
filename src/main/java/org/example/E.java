@@ -1,3 +1,5 @@
+package org.example;
+
 class E extends C {
   public E() {
     x30 = 0;
