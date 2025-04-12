@@ -1,3 +1,5 @@
+package org.example;
+
 class C {
   int x25;
   int x21;

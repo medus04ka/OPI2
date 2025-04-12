@@ -1,3 +1,5 @@
+package org.example;
+
 // var. 340641
 public class Lab4 {
   public static void main(String[] args) {
@@ -19,4 +21,4 @@ public class Lab4 {
   a.x7(c);
   }
 }
-previous : 5
+previous : 10
